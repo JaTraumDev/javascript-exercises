@@ -16,8 +16,7 @@ const thisYear = 1965
 const birthYear = 1947
 const age = thisYear - birthYear
 const greeting = "Hello! My name is " + fullName + " and I am " + (thisYear - birthYear) + " years old."
-console.log(greeting)
-
+console.log('greeting :>> ', greeting);
 
 // Do not change this
 module.exports = {

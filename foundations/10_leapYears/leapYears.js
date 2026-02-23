@@ -1,6 +1,8 @@
 const leapYears = function(year) {
 
-    if(year % 4 === 0 && year % 100 !== 0 || year % 400 === 0 &&Number.isInteger(year)){
+    if(year % 4 === 0 
+        && year % 100 !== 0 || year % 400 === 0 
+        && Number.isInteger(year)){
         return true;
     } else {
         return false;
@@ -8,7 +10,7 @@ const leapYears = function(year) {
 
 };
 
-console.log(leapYears(1200));
+console.log(leapYears());
 
 // Do not edit below this line
 module.exports = leapYears;

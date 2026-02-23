@@ -16,6 +16,8 @@ reverseStringAlternative("hello there");
 
 let newString = reverseString("hello there");
 console.log(newString.split(" ").slice(0, 1).concat("there").join(" "));
+console.log(newString);
+console.log(2 + 3);
 let sortedString = newString.split("").sort((a, b) => b.localeCompare(a)).join("");
 
 // Do not edit below this line
